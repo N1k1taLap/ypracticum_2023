@@ -70,8 +70,8 @@ BeginDate, TotalCharges, Partner, MonthlyCharges, PaymentMethod - Признак
 
 
 **Категориальные признаки были закодированы**
-* OrdinalEncoder (features_train_f, features_test_f)<br>
-* OHE (features_train_l, features_test_l, target_train_l, target_test_l)
+* OrdinalEncoder<br>
+* OHE
 
 **Про обучение моделей**<br>
 Были обучены модели:
@@ -110,7 +110,7 @@ BeginDate, TotalCharges, Partner, MonthlyCharges, PaymentMethod - Признак
 
 **Портрет потенциального перебежчика**
 * Среднее время или меньше является клиентом
-* При этом много заплатил
+* Крупная сумма платежей 
 * Много платит в месяц
 * Есть партнер
 
